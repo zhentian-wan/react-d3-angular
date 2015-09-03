@@ -1,0 +1,22 @@
+{
+  "name": "ReactD3Angular",
+  "version": "0.0.0",
+  "authors": [
+    "zhentian-wan <zhentian@monkeyexperience.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.13.3",
+    "d3": "~3.5.6",
+    "angular": "~1.4.5",
+    "bootstrap": "~3.3.5",
+    "reqwest": "~2.0.2"
+  }
+}

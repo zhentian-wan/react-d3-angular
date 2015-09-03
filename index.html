@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React + D3 + AngularJS</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="app">
+    <!-- <div ng-controller="RenderChartController as chartCtrl">-->
+        <h1>chart 1</h1>
+        <renderchart data="chartCtrl.data" id="rchart"></renderchart>
+        <h1>chart 2</h1>
+        <renderchart data="chartCtrl.data2" id="rchart2"></renderchart>
+  <!--  </div>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+<script src="bower_components/d3/d3.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/angular-app.js"></script>
+</body>
+</html>
